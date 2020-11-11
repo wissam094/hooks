@@ -1,5 +1,8 @@
 .App {
-  text-align: center;
+
+  background-color: rgb(205, 255, 234);
+  display: flex;
+  justify-content: space-around;
 }
 
 .App-logo {
@@ -35,4 +38,24 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.image{
+  display: flex;
+  justify-content: space-between;
+}
+
+.moviename{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%
+}
+h1{
+font-size: 20px;
+}
+h2{
+
+  font-size: 15px;
+  
 }
